@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: mtg
+    description: 'Magic the Gathering data tables'
+    database: mtg
+    schema: mtg
+
+    tables:
+      - name: mtg_oracle
+        description: 'Scryfall oracle json export'
